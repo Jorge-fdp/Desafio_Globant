@@ -1,5 +1,5 @@
 from sqlalchemy import Column, Integer, String, ForeignKey, SmallInteger
-from database import Base  # sin punto
+from database import Base  
 
 
 class Department(Base):
@@ -18,5 +18,5 @@ class Employee(Base):
     id = Column(Integer, primary_key=True, autoincrement=False)
     nombres = Column(String)
     fecha = Column(String)
-    department_id = Column(Integer)
-    job_id = Column(SmallInteger)  # <- Aquí podría estar el problema
+    department_id = Column(SmallInteger)
+    job_id = Column(SmallInteger) 

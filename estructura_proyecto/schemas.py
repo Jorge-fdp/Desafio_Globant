@@ -12,5 +12,6 @@ class EmployeeBase(BaseModel):
     id: int
     nombres: str
     fecha: str
-    job_id: int
     department_id: int
+    job_id: int
+

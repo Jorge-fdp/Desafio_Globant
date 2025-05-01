@@ -7,7 +7,7 @@ import urllib
 server = "localhost\\SQLEXPRESSJDP"  # o solo "localhost" si es la instancia por defecto
 database_name = "desafio_globant"
 
-# Cadena con autenticación integrada (Windows Authentication)
+# Autenticación integrada (Windows Authentication)
 connection_string = (
     f"DRIVER={{ODBC Driver 17 for SQL Server}};"
     f"SERVER={server};"
